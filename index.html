@@ -35,9 +35,9 @@
         }
       </script>
 </head>
-<body>
+<body class="fontManrope">
     <!-- Header Section -->
-    <header class="container mx-auto bg-slate-800">
+    <header class="container mx-auto">
         <!-- Navbar section  -->
         <nav>
             <div class="navbar bg-base-100">
@@ -55,7 +55,24 @@
                   </ul>
                 </div>
                 <div class="navbar-end gap-2">
-                    <button class="btn bg-bg_gradient_1 btn-circle">
+                    <button class="btn bg-bg_gradient_1 btn-circle invisible md:visible">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="btn bg-bg_gradient_1 btn-circle invisible md:visible">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <a class="btn bg-[#ABEF5F] rounded-2xl invisible md:visible"><span class="text-xl font-bold">Book Consult</span>
+                        <i class="fa-solid fa-arrow-right -rotate-45 h-8 w-8 bg-black text-white rounded-full flex justify-center items-center "></i>
+                    </a>
+                    <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                      <button class="btn bg-bg_gradient_1 btn-circle">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                     <button class="btn bg-bg_gradient_1 btn-circle">
@@ -64,13 +81,7 @@
                     <a class="btn bg-[#ABEF5F] rounded-2xl"><span class="text-xl font-bold">Book Consult</span>
                         <i class="fa-solid fa-arrow-right -rotate-45 h-8 w-8 bg-black text-white rounded-full flex justify-center items-center "></i>
                     </a>
-                    <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+
                       <li><a class="text-base font-bold">Home</a></li>
                       <li><a class="text-base font-normal">Services</a></li>
                       <li><a class="text-base font-normal">Portfolio</a></li>
@@ -83,6 +94,18 @@
         </nav>
         
         <!-- Banner section -->
+        <section class="mb-10">
+            <div class="flex justify-center items-center">
+                <img class="xl:h-[580px]" src="./assets/banner.png" alt="">
+            </div>
+            <h1 class="text-4xl lg:text-7xl font-bold lg:w-3/4 mx-auto text-center my-4 md:my-9">A barn house of this design has a striking appearance</h1>
+            <p class="font-base font-medium px-2 md:w-3/5 mx-auto text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <div class="px-4 py-10 text-center">
+                <button class="btn text-xl px-24 lg:px-10 rounded-full font-bold bg-[#ABEF5F80]">
+                    View Details <i class="fa-solid fa-arrow-right -rotate-45 h-8 w-8 bg-[#ABEF5F] text-black rounded-full flex justify-center items-center "></i>
+                  </button>
+            </div>
+        </section>
     </header>
 
     <!-- Main Section -->
