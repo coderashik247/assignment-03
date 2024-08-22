@@ -24,8 +24,7 @@
             extend: {
               colors: {
                 btn_primary:'rgb(171, 239, 95)',
-                bg_gradient_1:'rgb(255, 255, 255)',
-                bg_gradient_2:'rgba(255, 255, 255, 0)'
+                secondary:'rgb(30, 30, 30);',
               },
               fontFamily:{
                 fontManrope: "Manrope", 
@@ -92,14 +91,13 @@
                 </div>
               </div>
         </nav>
-        
         <!-- Banner section -->
         <section class="mb-10">
             <div class="flex justify-center items-center">
                 <img class="xl:h-[580px]" src="./assets/banner.png" alt="">
             </div>
             <h1 class="text-4xl lg:text-7xl font-bold lg:w-3/4 mx-auto text-center my-4 md:my-9">A barn house of this design has a striking appearance</h1>
-            <p class="font-base font-medium px-2 md:w-3/5 mx-auto text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <p class="font-base font-medium px-2 md:w-3/5 mx-auto text-center text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             <div class="px-4 py-10 text-center">
                 <button class="btn text-xl px-24 lg:px-10 rounded-full font-bold bg-[#ABEF5F80]">
                     View Details <i class="fa-solid fa-arrow-right -rotate-45 h-8 w-8 bg-[#ABEF5F] text-black rounded-full flex justify-center items-center "></i>
@@ -110,7 +108,42 @@
 
     <!-- Main Section -->
     <main>
-
+        <!-- design-thoughtful section  -->
+        <section class="bg-stone-100 relative">
+            <div class="md:absolute md:top-20 md:left-32 ">
+                <img class="invisible md:visible" src="./assets/vector.png" alt="">
+            </div>
+            <div class="container mx-auto md:flex gap-20">
+            <!-- text content -->               
+                <div class="px-2 md:py-32 flex-1 text-center md:text-left">
+                    <button class="btn rounded-full bg-white "><i class="fa-solid fa-arrow-right"></i>About Us</button>
+                    <h3 class="text-4xl md:text-[40px] leading-tight md:w-3/4 font-bold py-5">We design thoughtful, liveable spaces</h3>
+                    <p class="text-base font-medium mb-7 text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="border rounded-xl py-4 px-8 mb-5 flex gap-6 bg-white">
+                        <div>
+                            <img class="pt-4 h-20" src="./assets/commercial.png" alt="">
+                        </div>
+                        <div>
+                            <h5 class="text-xl font-bold mb-3">Commercial</h5>
+                            <p class="text-base font-medium text-[#737373] md:w-3/4 pb-3">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-xl py-4 px-8 flex gap-6 bg-white">
+                        <div>
+                            <img class="pt-4 h-20" src="./assets/residential.png" alt="">
+                        </div>
+                        <div>
+                            <h5 class="text-xl font-bold mb-3">Residential</h5>
+                            <p class="text-base font-medium text-[#737373] md:w-3/4 pb-3">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- image content -->
+                <div class="px-5 pt-32 flex-1">
+                    <img class="mb-16 md:mb-0 lg:w-full lg:h-5/6" src="./assets/rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
